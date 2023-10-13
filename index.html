@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convert</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <img id="img-pricipal" src="./assets/coin-flip-33.gif">
+    <main>
+        <label>Converte <b>De:</b>
+            <select>
+                <option>R$ Real Brasileiro</option>
+            </select>
+        </label>
+
+        <label>Converte <b>Para:</b>
+            <select class="Coin-select">
+                <option value="dolar">US$ Dolar Americano</option>
+                <option value="euro">€ Euro</option>
+                <option value="franco">Franco Suiço</option>
+            </select>
+        </label>
+
+        <label>Valor:
+            <input class="ValorAConverte" placeholder="Digite Aqui">
+        </label>
+
+        <button class="convertButton">Converte</button>
+        <section>
+            <div class="currency-box">
+                <img src="./assets/Real.png">
+                <p>Real</p>
+                <P class="ValorEmReal">R$ 10.000,00</P>
+            </div>
+
+            <img class="arrow-img" src="./assets/Seta.png">
+
+            <div class="currency-box">
+                <img class="flag-currency" src="./assets/Dolar.png">
+                <p id="CurrencyMoney">US$ Dolar</p>
+                <p class="ValorConvertido">US$ 1.968,00 </p>
+            </div>
+
+        </section>
+    </main>
+</body>
+<script src="./script.js"></script>
+</html>

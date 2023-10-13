@@ -56,8 +56,9 @@ function ChangeCurrency() {
         Paragrafo.innerHTML = 'Franco Suiço'
         Flag.src = './assets/Franco suiço.jpg'
     }
-}
 
+    ConvertValue()
+}
 
 CurrencySelect.addEventListener('change', ChangeCurrency)
 buttonToConvert.addEventListener("click", ConvertValue)
